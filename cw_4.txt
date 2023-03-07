@@ -1,0 +1,32 @@
+Klasy:
+- person
+- profesor
+- student
+- adress
+
+
+
+
+Atrybuty i ich typy danych: 
+Person:
+- name, surname - String
+- age - int
+	metody:
+- IntroduceYourself() - string
+Student:
+- student number - int
+- average mark- double
+	metody:
+- IsEligbleToEnroll() - boolean
+- getSeminarsTaken() - boolean
+Professor:
+- salary - int
+Adress:
+- street - string 
+- city - string 
+- state - string 
+- postal code - string 
+- country - string 
+	metody:
+- validate() - boolean
+- outputAsLabel() - boolean
